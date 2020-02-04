@@ -1,0 +1,30 @@
+{
+	"name": "node-babel",
+	"version": "1.0.0",
+	"description": "The Template Repository for the Babel Configured Node Project.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "babel index.js -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prashant1k99/node-babel.git"
+	},
+	"keywords": [
+		"Node",
+		"Babel",
+		"Babel Config for Node"
+	],
+	"author": "Prashant Singh",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/prashant1k99/node-babel/issues"
+	},
+	"homepage": "https://github.com/prashant1k99/node-babel#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.8.4",
+		"@babel/preset-env": "^7.8.4"
+	}
+}
