@@ -12,3 +12,12 @@ The starting point of any code will be `index.js`.
 - Code minification.
 - Typescript Support.
 - Code Linting.
+
+## Version 1.2.0
+
+This version allows usage of nodemon to continously develop and updating the Changes while the server is continously running.
+To use this version simply use
+
+```sh
+npm run start
+```
