@@ -10,5 +10,4 @@ The starting point of any code will be `index.js`.
 
 - ES6 usage.
 - Code minification.
-- Typescript Support.
 - Code Linting.
