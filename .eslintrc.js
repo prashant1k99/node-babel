@@ -1,16 +1,17 @@
 module.exports = {
 	env: {
 		es2020: true,
-		node: true,
+		node: true
 	},
-	extends: 'eslint:recommended',
+	extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+	plugins: ['prettier'],
 	parserOptions: {
 		ecmaVersion: 11,
-		sourceType: 'module',
+		sourceType: 'module'
 	},
 	rules: {
 		indent: ['error', 'tab'],
-		'linebreak-style': ['error', 'unix'],
+		// 'linebreak-style': ['error', 'unix'],
 		quotes: ['error', 'single'],
 		semi: ['error', 'never'],
 		'no-use-before-define': ['error', { functions: true, classes: true }],
@@ -31,5 +32,6 @@ module.exports = {
 		'no-var': 'error',
 		'prefer-const': 'error',
 		'no-empty-function': 'error',
-	},
+		'prettier/prettier': 'error'
+	}
 }
