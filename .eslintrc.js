@@ -30,5 +30,6 @@ module.exports = {
 		'no-duplicate-imports': ['error', { includeExports: true }],
 		'no-var': 'error',
 		'prefer-const': 'error',
+		'no-empty-function': 'error',
 	},
 }
