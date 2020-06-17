@@ -1,40 +1,43 @@
 {
-  "name": "node-babel",
-  "version": "1.0.0",
-  "description": "The Template Repository for the Babel Configured Node Project.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel index.js -d dist",
-    "dev": "nodemon --exec babel-node index.js",
-    "start": "npm run build && nodemon dist/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prashant1k99/node-babel.git"
-  },
-  "keywords": [
-    "Node",
-    "Babel",
-    "Babel Config for Node"
-  ],
-  "author": "Prashant Singh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/prashant1k99/node-babel/issues"
-  },
-  "homepage": "https://github.com/prashant1k99/node-babel#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.10.2",
-    "@babel/node": "^7.10.1",
-    "@babel/preset-env": "^7.8.4",
-    "eslint": "^7.2.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "nodemon": "^2.0.4"
-  }
+	"name": "node-babel",
+	"version": "1.0.0",
+	"description": "The Template Repository for the Babel Configured Node Project.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "babel index.js -d dist",
+		"dev": "nodemon --exec babel-node index.js",
+		"start": "npm run build && nodemon dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prashant1k99/node-babel.git"
+	},
+	"keywords": [
+		"Node",
+		"Babel",
+		"Babel Config for Node"
+	],
+	"author": "Prashant Singh",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/prashant1k99/node-babel/issues"
+	},
+	"homepage": "https://github.com/prashant1k99/node-babel#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.10.2",
+		"@babel/node": "^7.10.1",
+		"@babel/preset-env": "^7.8.4",
+		"eslint": "^7.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-config-standard": "^14.1.1",
+		"eslint-plugin-import": "^2.21.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"nodemon": "^2.0.4",
+		"prettier": "^2.0.5"
+	}
 }
